@@ -8,7 +8,7 @@
     "changeset": "changeset",
     "pkg:version": "changeset version",
     "publish:only": "changeset publish",
-    "vchore": "git commit -am \"chore(changeset): release\"",
+    "postversion": "git commit -am \"chore(changeset): release\" && git push",
     "format": "prettier --write .",
     "lint": "eslint . -c .eslintrc.js --fix --max-warnings=0",
     "test": "jest --config jest.config.ts --runInBand --coverage --verbose",
