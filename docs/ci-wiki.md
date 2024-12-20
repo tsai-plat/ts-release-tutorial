@@ -104,3 +104,9 @@ pnpm exec changeset pre enter beta
 # 退出
 pnpm exec changeset pre exit
 ```
+
+### Changeset 流程
+
+1. git commit -am ''
+2. npx changeset # 发布版本 生成 临时markdown
+3. npx changeset version 将临时写入 changelog
