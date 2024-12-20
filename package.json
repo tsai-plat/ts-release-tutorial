@@ -1,6 +1,6 @@
 {
   "name": "ts-release-tutorial",
-  "version": "0.0.2-beta.0",
+  "version": "0.0.2",
   "description": "TS + JEST",
   "main": "dist/index.js",
   "scripts": {
@@ -17,6 +17,7 @@
   "author": "CMETAV",
   "license": "MIT",
   "devDependencies": {
+    "@changesets/action": "github:changesets/action",
     "@changesets/changelog-git": "^0.2.0",
     "@changesets/changelog-github": "^0.5.0",
     "@changesets/cli": "^2.27.11",
@@ -28,6 +29,7 @@
     "@types/jest": "^29.5.14",
     "@types/node": "^22.10.2",
     "@typescript-eslint/parser": "^8.18.1",
+    "cross-env": "^7.0.3",
     "eslint": "8.56.0",
     "eslint-config-prettier": "^9.1.0",
     "eslint-import-resolver-typescript": "^3.7.0",

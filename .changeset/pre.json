@@ -1,8 +1,0 @@
-{
-  "mode": "exit",
-  "tag": "beta",
-  "initialVersions": {
-    "ts-release-tutorial": "0.0.1"
-  },
-  "changesets": ["breezy-sheep-visit"]
-}
