@@ -1,5 +1,11 @@
 # ts-release-tutorial
 
+## 0.0.3
+
+### Patch Changes
+
+- Okay ! this is an test changeset pr.
+
 ## 0.0.2
 
 ### Patch Changes

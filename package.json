@@ -1,6 +1,6 @@
 {
   "name": "ts-release-tutorial",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "TS + JEST",
   "main": "dist/index.js",
   "scripts": {
