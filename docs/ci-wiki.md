@@ -110,3 +110,9 @@ pnpm exec changeset pre exit
 1. git commit -am ''
 2. npx changeset # 发布版本 生成 临时markdown
 3. npx changeset version 将临时写入 changelog
+
+## commitzen
+
+```bash
+pnpm add -D commitizen cz-conventional-changelog
+```
